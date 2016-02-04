@@ -1,5 +1,5 @@
 /**
- * tc-angular-chartjs - v1.0.14 - 2016-02-04
+ * tc-angular-chartjs-gcr - v1.0.13b - 2016-02-04
  * Copyright (c) 2016 Carl Craig <carlcraig.threeceestudios@gmail.com>
  * Dual licensed with the Apache-2.0 or MIT license.
  */
@@ -42,8 +42,8 @@
                     data: "=chartData",
                     options: "=chartOptions",
                     type: "@chartType",
-                    legend: "=chartLegend",
-                    chart: "=chart",
+                    legend: "=?chartLegend",
+                    chart: "=?chart",
                     click: "&chartClick"
                 },
                 link: link
@@ -146,7 +146,7 @@
         return {
             restrict: "A",
             scope: {
-                legend: "=chartLegend"
+                legend: "=?chartLegend"
             },
             link: link
         };
