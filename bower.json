@@ -1,6 +1,6 @@
 {
   "name": "tc-angular-chartjs-gcr",
-  "version": "1.0.13a",
+  "version": "1.0.13B",
   "description": "Add Chart.js charts to your angular application",
   "homepage": "http://gristow.github.io/tc-angular-chartjs/",
   "author": "Carl Craig <carlcraig@3c-studios.com>",
